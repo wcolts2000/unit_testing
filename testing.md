@@ -15,5 +15,7 @@
 | Mocha                 | Chai              | Mocha       | Sinon.js          | Istanbul      |
 |                       |                   | Karma       |                   |               |
 
-puppeteer - headless browser by google
-jsdom - in js version of the dom without browser
+### Packages of Interest
+
+-puppeteer - headless browser by google
+-jsdom - in js version of the dom without browser
