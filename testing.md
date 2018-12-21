@@ -17,5 +17,19 @@
 
 ### Packages of Interest
 
-- puppeteer - headless browser by google
-- jsdom - in js version of the dom without browser
+- Jest - complete testing library - `https://jestjs.io/`
+- Mocha - feature rich js testing framework running on node `https://github.com/mochajs/mocha`
+- Chai - BDD / TDD assertion library for node `https://github.com/chaijs/chai`
+- Jasmine - behavior driven dev framework that does not require a DOM `https://github.com/jasmine/jasmine.github.io`
+- Sinon.js - Test Spys Stubs and Mocks `https://github.com/sinonjs/sinon`
+- Istanbul - code coverage tool for testing js `https://github.com/gotwarlost/istanbul`
+- Karma - a low setup easy to use testing invoronment that is framework agnostic `https://www.npmjs.com/package/karma`
+- Puppeteer - headless browser by google `https://github.com/GoogleChrome/puppeteer`
+- Jsdom - in js version of the dom without browser `https://github.com/jsdom/jsdom`
+- Enzyme - a js library by AirBnB for testing react components `https://github.com/airbnb/enzyme`
+- Storybook - an isolated environment to build out and visually test your components and heir state behavior `https://github.com/storybooks/storybook`
+
+## Resources
+
+- Jest Cheat Sheet `https://github.com/sapegin/jest-cheat-sheet`
+- Enzyme API REF DOCS `https://airbnb.io/enzyme/docs/api/`
