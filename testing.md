@@ -29,7 +29,12 @@
 - Enzyme - a js library by AirBnB for testing react components `https://github.com/airbnb/enzyme`
 - Storybook - an isolated environment to build out and visually test your components and heir state behavior `https://github.com/storybooks/storybook`
 
-## Resources
+## Additional Resources
 
 - Jest Cheat Sheet `https://github.com/sapegin/jest-cheat-sheet`
 - Enzyme API REF DOCS `https://airbnb.io/enzyme/docs/api/`
+
+## Notes
+
+- when writing tests the DRY principles are not of as much importance. Tests are for development environments only and therefore are better written as verbose as necessary to be clear and readable by yourself and other devs. repeating yourself in different test cases is not a bad thing and generally speaking the more tests the better as you can catch more edge cases potentially.
+- as test files become bigger, they can be grouped into similar function blocks with describe method.
