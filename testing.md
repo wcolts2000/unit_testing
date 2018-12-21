@@ -17,5 +17,5 @@
 
 ### Packages of Interest
 
--puppeteer - headless browser by google
--jsdom - in js version of the dom without browser
+- puppeteer - headless browser by google
+- jsdom - in js version of the dom without browser
