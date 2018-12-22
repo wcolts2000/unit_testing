@@ -38,3 +38,10 @@
 
 - when writing tests the DRY principles are not of as much importance. Tests are for development environments only and therefore are better written as verbose as necessary to be clear and readable by yourself and other devs. repeating yourself in different test cases is not a bad thing and generally speaking the more tests the better as you can catch more edge cases potentially.
 - as test files become bigger, they can be grouped into similar function blocks with describe method.
+
+## packages used in this sample
+
+| package name | dependency type |
+| ------------ | --------------- |
+| jest         | dev dependency  |
+| node-fetch   | reg dependency  |
