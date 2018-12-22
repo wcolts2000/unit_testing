@@ -38,6 +38,7 @@
 
 - when writing tests the DRY principles are not of as much importance. Tests are for development environments only and therefore are better written as verbose as necessary to be clear and readable by yourself and other devs. repeating yourself in different test cases is not a bad thing and generally speaking the more tests the better as you can catch more edge cases potentially.
 - as test files become bigger, they can be grouped into similar function blocks with describe method.
+- Mocks give us the ability to fake data call/responses instead of being reliant on an actual api response to test our components interactions. They allow us to Spy on the behavior of the functions and see what is happening with them during async calls
 
 ## packages used in this sample
 
