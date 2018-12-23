@@ -8,12 +8,21 @@
 
 ## Testing Tools
 
-| LIBRARY - Scaffolding | ASSERTION LIBRARY | TEST RUNNER | MOCK SPYS & STUBS | CODE COVERAGE |
-| --------------------- | ----------------- | ----------- | ----------------- | ------------- |
-| Jasmine               | Jasmine           | Jasmine     | Jasmine           | Istanbul      |
-| Jest                  | Jest              | Jest        | Jest              | Jest (^uth)   |
-| Mocha                 | Chai              | Mocha       | Sinon.js          | Istanbul      |
-|                       |                   | Karma       |                   |               |
+| TESTING LIBRARY | ASSERTION LIBRARY | TEST RUNNER | MOCK SPYS & STUBS | CODE COVERAGE |
+| --------------- | ----------------- | ----------- | ----------------- | ------------- |
+| Jasmine         | Jasmine           | Jasmine     | Jasmine           | Istanbul      |
+| Jest            | Jest              | Jest        | Jest              | Jest (^uth)   |
+| Mocha           | Chai              | Mocha       | Sinon.js          | Istanbul      |
+|                 |                   | Karma       |                   |               |
+
+- **TESTING LIBRARY**: the scaffolding, giving us the ability to use function calls and some new methods to write the tests
+- **ASSERTION LIBRARY**: provides assertion functions allowing you to test that the variables contain the expected value (i.e. it gives us the use of `expect([1,2]).to.be.an('array').that.does.not.include(3);` as can be seen in the docs for [Chai here](https://www.chaijs.com/api/bdd/ "Chai") )
+- **TEST RUNNER**: allows us to actually run the tests. _as **Jest** is already installed in the environment when using **Create-React_app**, in our **react-scripts** we can use `npm test` to use its integrated **Test Runner**_
+  - **Karma** is a **Test Runner** that gives the ability to run tests in the browser
+  - To run tests outside the browser a _headless browser_ like **Puppeteer** by Google is needed. Think of these as a stripped down browser
+  - jsdom is the javascript version of a DOMlike API environment that allows us to run our tests in the terminals. _this is what **Jest** is using under the hood_
+- **MOCK SPYS AND STUBS**: spys provide to you the information about functions, i.e. how many times they were called, in what cases, and by who. stubbing replaces selected functions with a function to insure that the expected behavior happens, and mocks are like faking a function or behavior to test different parts of a particular process (could be very good for integration tests) _can be used to fake a server responses_
+- **CODE COVERAGE**: code coverage will show you the overall coverage of tests on your app, showing the percentages of code coverage on statements, branches functions, and lines and finally the uncovered lines which displays the line numbers of the uncovered code in the files.
 
 ### Packages of Interest
 
@@ -29,6 +38,8 @@
 - Enzyme - a js library by AirBnB for testing react components [https://github.com/airbnb/enzyme](https://github.com/airbnb/enzyme "Enzyme")
 - Storybook - an isolated environment to build out and visually test your components and their state behavior [https://github.com/storybooks/storybook](https://github.com/airbnb/enzyme "Storybook.js")
 - Nock - a package that allows you to test modules that perform HTTP requests in isolation, allowing you to mock your HTTP responses [https://www.npmjs.com/package/nock](https://www.npmjs.com/package/nock "Nock")
+- AVA - another testing package that does parallelism really well, meaning it runs tests very fast [https://github.com/avajs/ava](https://github.com/avajs/ava "AVAJS")
+- Tape - a simple light library _tap-producing test harness for node and browsers_ [https://github.com/substack/tape](https://github.com/substack/tape "Tape")
 
 ## Additional Resources
 
