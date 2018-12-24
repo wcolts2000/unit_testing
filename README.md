@@ -70,10 +70,10 @@ _Note: When installing packages via npm you can use `npm i -D <package_name>` as
 | enzyme-adapter-react-16 | dev             |
 | redux-mock-store        | dev             |
 
-## Enzyme gives the ability to test components
+## [Enzyme](https://github.com/reduxjs/redux-thunk "Enzyme") gives the ability to test components
 
 - In setupTests.js configure the new adapter
-- enzyme gives us 3 methods
+- [Enzyme](https://github.com/reduxjs/redux-thunk "Enzyme") gives us [3 methods](https://github.com/airbnb/enzyme/tree/master/docs/api)
   - shallow
     - Allows an _easy render of an individual component_ for purposes of testing - what **will be used most often** for testing
     - As of Enzyme v3, **the shallow API does call React lifecycle methods such as componentDidMount and componentDidUpdate**.
